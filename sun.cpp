@@ -2,11 +2,11 @@
 #include "picture.hpp"
 
 void sun(){
-setfillstyle(SOLID_FILL, YELLOW);
-fillellipse(25, 25, 5, 5);
-setcolor(YELLOW);
-line(0,25, 50, 25);
-line(25,0, 25, 50);
-line(0,0, 50, 50);
-line(0,50, 50, 0);
+   setfillstyle(SOLID_FILL, YELLOW);
+   fillellipse(150, 150, 30, 30);
+   setcolor(YELLOW);
+   line(0, 150, 300, 150);
+   line(150, 0, 150, 300);
+   line(0, 0, 300, 300);
+   line(0, 300, 300, 0);
 } 

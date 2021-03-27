@@ -2,16 +2,12 @@
 #include "picture.hpp"
 
 void man(){
-setfillstyle(SOLID_FILL, YELLOW);
-setcolor(YELLOW);
-fillellipse(75, 75, 3,3);
-bar(74,75,76,70);
-bar(70, 70, 80, 68);
-line(80, 70, 78, 45);
-line(70, 70, 72, 45);
-bar(73, 68, 77, 50);
-bar(72, 50, 74, 30);
-bar(76, 50, 78, 30);
-for(int x = 55; x <= 200; x += 10)
-bar(x, 200, x + 5, 180);
+   setfillstyle(SOLID_FILL, YELLOW);
+   fillellipse(600, 450, 15,15);
+   bar(570, 465, 630, 475);
+   bar(570, 475, 580, 550);
+   bar(630, 475, 620, 550);
+   bar(585, 475, 615, 540);
+   bar(585, 540, 595, 600);
+   bar(615, 540, 605, 600);
 }
